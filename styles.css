@@ -124,7 +124,7 @@ a {
     display: flex;
     background-color: white;
     flex-direction: column;
-    height: 300px;
+    height: 400px;
     padding: 0 15% 0 15%;
     justify-content: center;
     align-items: center;
@@ -150,7 +150,7 @@ a {
     justify-content: center;
     align-items: center;
     margin: 0 10% 0 10%;
-    gap: 10px;
+    gap: 100px;
 }
 
 .random-information {
@@ -166,18 +166,19 @@ a {
     display: flex;
     border: solid blue;
     border-radius: 10px;
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
 
 }
 
 .random-text {
     display: flex;
-    font-size: 8px;
+    font-size: 16px;
     color: gray;
     margin-top: 10px;
     padding: 8px;
-    text-align: center;
+    text-align: center; 
+    max-width: 120px;
 
 }
 
@@ -187,7 +188,7 @@ a {
     display: flex;
     background-color: #E5E7EB;
     flex-direction: column;
-    height: 300px;
+    height: 400px;
     padding: 0 15% 0 15%;
     justify-content: center;
     align-items: center;
@@ -206,7 +207,7 @@ a {
     display: flex;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 12px;
     align-self: flex-end;
 }
 
@@ -235,11 +236,11 @@ a {
 
 .text-cta {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .subtext-cta {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .cta-signup {
@@ -251,6 +252,8 @@ a {
     width: 10px;
     color: white;
     justify-content: center;
+    font-size: 18px;
+    padding: 8px;
 }
 
 
