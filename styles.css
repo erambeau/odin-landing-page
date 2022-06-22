@@ -121,10 +121,64 @@ a {
 /********** PART 2 : Some random informations **********/
 
 .part-some-random-information {
+    display: flex;
     background-color: white;
     flex-direction: column;
-    height: 400px;
+    height: 250px;
     padding: 0 15% 0 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2a : the title */
+
+.title-some-random-information {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    flex: 1;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* 2b : the informations */
+
+.each-random-information {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10% 0 10%;
+    gap: 10px;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* each information is composed with a square and a text */
+
+.random-square {
+    display: flex;
+    border: solid blue;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+
+}
+
+.random-text {
+    display: flex;
+    font-size: 8px;
+    color: gray;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+
 }
 
 /********** PART 3 : Quote **********/
