@@ -216,11 +216,43 @@ a {
 .part-call-to-action {
     display: flex;
     background-color: #3882F6;
-    flex-direction: column;
     height: 100px;
-    padding: 0 15% 0 15%;
+    padding: 2% 5%;
     margin: 5% 15%;
+    justify-content: center;
+    align-items: center;
 }
+
+.full-text-cta {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.text-cta, .subtext-cta {
+    color: white;
+}
+
+.text-cta {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subtext-cta {
+    font-size: 12px;
+}
+
+.cta-signup {
+    display: flex;
+    flex:0 2 25%;
+    border: solid white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 10px;
+    color: white;
+    justify-content: center;
+}
+
 
 
 /********** PART 5 : Footer **********/
