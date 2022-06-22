@@ -1,0 +1,37 @@
+/* Initialize */
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+
+/* PART 1 : Header */
+
+
+
+/* PART 2 : Some random informations */
+
+.part-some-random-information {
+    background-color: white;
+}
+
+
+/* PART 3 : Quote */
+
+.part-quote {
+    background-color: #E5E7EB;
+}
+
+
+/* PART 4 : Call to action */
+
+.part-call-to-action {
+    background-color: #3882F6;
+}
