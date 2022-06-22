@@ -12,7 +12,7 @@
 }
 
 
-/* PART 1 : Header */
+/********** PART 1 : Header **********/
 
 .header {
     display: flex;
@@ -116,21 +116,45 @@ a {
 }
 
 
-/* PART 2 : Some random informations */
+
+
+/********** PART 2 : Some random informations **********/
 
 .part-some-random-information {
     background-color: white;
+    flex-direction: column;
+    height: 400px;
+    padding: 0 15% 0 15%;
 }
 
-/* PART 3 : Quote */
+/********** PART 3 : Quote **********/
 
 .part-quote {
     background-color: #E5E7EB;
+    flex-direction: column;
+    height: 400px;
+    padding: 0 15% 0 15%;
 }
 
 
-/* PART 4 : Call to action */
+/********** PART 4 : Call to action **********/
 
 .part-call-to-action {
     background-color: #3882F6;
+    flex-direction: column;
+    height: 100px;
+    padding: 0 15% 0 15%;
+    margin: 5% 15%;
+}
+
+
+/********** PART 5 : Footer **********/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
 }
